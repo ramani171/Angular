@@ -1,0 +1,6 @@
+#grad1 {
+  height: 900px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, pink, blue);
+  font-family: Lato;
+}
