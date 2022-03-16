@@ -20,14 +20,9 @@ export class componentAComponent implements OnInit {
       });
     this.productService = new ProductService();
   }
-  // just for testing
-  // count:number = 0;
-  // name:string;
-  // list: string[] = ['bala','paraveen','raghul'];
-  // list1:string[];
+  
   increamentcount() {
-    // this.list1 = this.list;
-    // return this.list1;
+   
     this.products = this.productService.getProducts();
     return this.products;
   }
